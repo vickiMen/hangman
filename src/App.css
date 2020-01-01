@@ -1,0 +1,65 @@
+.container {
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-areas: 
+  "man"
+  "answer"
+  "score";
+}
+
+.score {
+  grid-area: score;
+  color: blue;
+}
+
+.selected {
+  background-color: grey;
+  border-radius: 20%;
+  display: inline-table;
+  text-align: center;
+  width: 12px;
+  margin: 2px;
+  opacity: 20%;
+}
+
+.unselected {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 20%;
+  display: inline-table;
+  text-align: center;
+  width: 12px;
+  margin: 2px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.gameOver {
+  cursor: pointer;
+  background-color: rgb(186, 186, 186);
+  box-shadow: 1px 1px 5px grey;
+}
+
+.newGame {
+  cursor: pointer;
+  background-color: rgb(186, 186, 186);
+  box-shadow: 1px 1px 5px grey;
+}
+
+.answer {
+  color: red;
+}
+
+.success {
+  color: red;
+}
+
+.hint {
+  color: red;
+}
+
+.letters {
+  width: 5px;
+  height: 5px;
+  border: 1px solid grey;
+}
